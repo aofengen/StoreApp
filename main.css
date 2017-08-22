@@ -5,38 +5,27 @@ body {
 footer {
 	text-align: left;
 	background-color: #fff;
+	border: solid 1px black;
 }	
 
-header#headerImages {
+h6 {
+	color: black;
+}
+
+#picContainer {
+	margin: 1em 0 0 2.5em;
 	position: relative;
-	margin: 1em;
 }
 
-#image1 {
-	margin: 20px;
-	position: relative;
-	float: left;
-}
-
-#image2: {
-	margin: 20px;
-	padding: 20px;
-	top: 2em;
-	position: relative;
-	float: right;
-}
-
-.titleDiv {
-	
-}
-
-#titlep {
-	font-size: 40px;
+#companyName {
+	font-size: 36px;
+	color: black;
 	text-align: center;
 }
 
 #sideMenu {
 	float: left;
+	margin: 0 0 0 1em;
 	background-color: #fff;
 	width: 20%;
 	border: solid 2px black;
@@ -49,10 +38,13 @@ header#headerImages {
 #ourGoalDiv
 
 .mainMenu {
+	top: 3em;
 	float: right;
 	background-color: #fff;
 	position: relative;
 	padding: 0 1em 0 0;
+	border-radius: 2em;
+	box-shadow: 1em 1em 5em #777;
 }
 
 section p#itemText {
@@ -72,8 +64,9 @@ section p#itemText {
 
 .itemPic {
 	position: relative;
-	width: 300px;
+	width: 292px;
 	height: 170px;
+	border: solid 1px black;
 }
 
 div.clear{

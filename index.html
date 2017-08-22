@@ -2,32 +2,51 @@
 <html>
 	<head>
 		<title>Morgan Enterprises</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./main.css">
+
+		<meta name="viewport" content="width=devicewidth, initialscale=1">
 	</head>
 	<body>
-	<header id="headerImages">
-		<img src="./img/tim-gouw-69753.jpg" alt="Photo by Tim Gouw on Unsplash" width="45%" id="image1">
-		<img src="./img/kai-oberhauser-309715.jpg" alt="Photo by Kai Oberhäuser on Unsplash" width="45%" id="image2">
+	
+	<!-- To Do List:
+	-Add Background image
+	-Fix header images
+	-Fix mainMenu Panel
+	-Add more categories to sidePanel ul -->
+
+	<header>
+		<div class="container" id="picContainer">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="./img/tim-gouw-69753.jpg" alt="Photo by Tim Gouw on Unsplash" width="100%" id="image1">
+				</div>
+				<div class="col-md-6">
+					<img src="./img/kai-oberhauser-309715.jpg" alt="Photo by Kai Oberhäuser on Unsplash" width="100%" id="image2">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+		 		<div class="col-md-12" id="companyName"><b>Morgan Enterprises<i>"Lorem ipsum dolor sit amet, consectetur"</i></b><h4>PPAI#:</h4></div>
+		 	</div>
+		</div>
 	</header>
-	<div class="titleDiv">
-		<p id="titlep"><b>Morgan Enterprises<i>"Lorem ipsum dolor sit 
-		amet, consectetur"</i></b><h4>PPAI#:</h4></p>
-	</div>
 	<div id="sideMenu">
 		<!--item category menu-->
 		<div>
 		<h2>CATEGORIES</h2>
-			<ul>
-				<li><a href="">Shirts</a></li>
-				<li><a href="">Hats</a></li>
-				<li><a href="">Mugs</a></li>
-				<li><a href="">Golf Balls</a></li>
-				<li><a href="">Pens</a></li>
-				<li><a href="">Water Bottles</a></li>
-				<li><a href="">Category 7</a></li>
-				<li><a href="">Category 8</a></li>
-			</ul>
-		<h3 id="sideMenuh3">Other items available on Request!</h3>
+			<div class=list-group>
+				<a href="" class="list-group-item list-group-item-info"><b>Shirts</b></a>
+				<a href="" class="list-group-item list-group-item-warning"><b>Hats</b></a>
+				<a href="" class="list-group-item list-group-item-info"><b>Mugs</b></a>
+				<a href="" class="list-group-item list-group-item-warning"><b>Golf Balls</b></a>
+				<a href="" class="list-group-item list-group-item-info"><b>Pens</b></a>
+				<a href="" class="list-group-item list-group-item-warning"><b>Water Bottles</b></a>
+				<a href="" class="list-group-item list-group-item-info"><b>Frisbees</b></a>
+				<a href="" class="list-group-item list-group-item-warning"><b>Category 8</b></a>
+			</div>
+		<h3 id="sideMenuh3">Other items available on request!</h3>
 		</div>
 		<div class="ourGoalDiv">
 			<h2>Our Goal:</h2>
@@ -43,37 +62,38 @@
 		<div class="itemBox">
 			<img src="./img/mug.jpg" alt="Photo by Hans Vivek on Unsplash" class="itemPic" border="0">
 			<a href=""><h3>Mugs</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="itemBox">
 			<img src="./img/hat.jpg" alt="Photo by Nina Strehl on Unsplash" class="itemPic" border="0">
 			<a href=""><h3>Hats</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="itemBox">
 			<img src="./img/shirt.jpg" alt="Photo by Jerry Kiesewetter on Unsplash" class="itemPic" border="0">
 			<a href=""><h3>Shirts</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="itemBox">
-			<img src="./img/water-bottle.jpg" alt="item6" class="itemPic" border="0">
+			<img src="./img/water-bottle.jpg" alt="" class="itemPic" border="0">
 			<a href=""><h3>Water Bottles</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="itemBox">
-			<img src="./img/pen.jpg" alt="item5" class="itemPic" border="0">
+			<img src="./img/pen.jpg" alt="" class="itemPic" border="0">
 			<a href=""><h3>Pens</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 		<div class="itemBox">
 			<img src="./img/golf-balls.jpg" alt="Photo by Tyson Dudley on Unsplash" class="itemPic" border="0">
 			<a href=""><h3>Golf Balls</h3></a>
-			<p class=itemText>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p class="itemText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		</div>
 	</section>
 	
 	<div class="clear"></div>
 	
+	<br>
 	<div>
 		<footer id="mainpageFooter">
 			<span>&copy;2017 </span>
