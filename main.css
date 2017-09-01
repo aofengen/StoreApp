@@ -35,8 +35,6 @@ h6 {
 	color: red;
 }
 
-#ourGoalDiv
-
 .mainMenu {
 	top: 3em;
 	float: right;
@@ -54,9 +52,9 @@ section p#itemText {
 .itemBox {
 	float: right;
 	position: relative;
+	margin: 1em;
 	width: 300px;
 	height: 300px;
-	margin: 1em;
 	padding: .2em;
 	border: solid 1px black;
 	background-color: #fff;
